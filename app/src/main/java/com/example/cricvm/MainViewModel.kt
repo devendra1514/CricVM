@@ -37,6 +37,7 @@ class MainViewModel: ViewModel() {
             override fun onResponse(call: Call<FixtureByDate>, response: Response<FixtureByDate>) {
                 if (response.body() != null) {
                     fixtureByDate.postValue(response.body())
+                    Log.d("Aao", "Response executed successfully")
                 }
                 else{
                     Log.d("Aao", "Response not executed successfully")

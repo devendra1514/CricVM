@@ -8,7 +8,8 @@ import retrofit2.http.Headers
 import retrofit2.http.Path
 
 const val BASE_URL = "https://cricket-live-data.p.rapidapi.com/"
-const val API_KEY = "106d4991f4msh7d6be57d1604a85p1b9496jsn4390e32777f8"
+//const val API_KEY = "106d4991f4msh7d6be57d1604a85p1b9496jsn4390e32777f8"
+const val API_KEY = "7107a6ed7fmshf9f779648048aefp1eb428jsn8a9a781ab97c"
 
 interface FixtureByDateService {
     @Headers("x-rapidapi-host:cricket-live-data.p.rapidapi.com",
